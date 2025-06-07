@@ -1,64 +1,31 @@
-# 🛡️ Task 3 - Wi-Fi Security Assessment
+# 🔐 Task 3 - Wi-Fi Security Assessment
 
-As part of the **Future Interns Cybersecurity Track**, this task involved assessing the security of my personal Wi-Fi network using penetration testing tools.
-
----
-
-## 🔹 Task Objective
-
-Conduct a Wi-Fi security assessment to:
-
-- Detect weak passwords
-- Identify open ports
-- Find unauthorized devices
+As part of the **Future Interns Cybersecurity Track**, this task involved conducting a basic security assessment of my personal Wi-Fi network using ethical hacking tools and techniques.
 
 ---
 
-## 🔧 Tools Used
+## 🎯 Task Objective
 
-- `Nmap` – to scan the network and check for connected devices & open ports  
-- `Wireshark` – to capture and analyze network traffic
+To evaluate the security of a home wireless network by:
 
----
-
-## 🖼️ Screenshots
-
-### 🔍 Nmap Scan Results
-> *[Add screenshot showing IP addresses/devices connected]*
-
-![Nmap Scan](screenshots/nmap-scan.png)
+- Scanning for connected devices
+- Detecting open and vulnerable ports
+- Checking for weak encryption or passwords
+- Identifying unauthorized devices
+- Providing recommendations for improved security
 
 ---
 
-### 📡 Wireshark Capture
-> *[Add screenshot showing captured IP packets or traffic to/from router]*
+## 🧰 Tools Used
 
-![Wireshark Capture](screenshots/wireshark-capture.png)
-
----
-
-## ✅ Findings
-
-- Found multiple devices on the network using Nmap
-- Analyzed packet flow using Wireshark
-- No suspicious traffic was observed
-- Router running on IP `192.168.29.1`
-- No dangerous ports (e.g., Telnet) exposed
+- **Nmap** – to discover hosts and open ports on the network
+- **Wireshark** – to capture and analyze network traffic
 
 ---
 
-## 🛠️ Recommendations
+## 🔍 Procedure
 
-- Ensure router uses strong WPA2 or WPA3 password
-- Disable WPS if enabled
-- Regularly review connected device list
-- Update router firmware to avoid known vulnerabilities
-- Set firewall rules to restrict unnecessary ports
-
----
-
-## 📁 Author
-
-**Aswin M S**  
-Cybersecurity Enthusiast | Future Intern  
-[GitHub](https://github.com/your-username) | [LinkedIn](https://linkedin.com/in/your-profile)
+1. **Connected to Home Wi-Fi** using a Linux-based system.
+2. Identified the device IP using:
+   ```bash
+   hostname -I
