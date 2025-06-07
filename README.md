@@ -1,31 +1,49 @@
-# 🔐 Task 3 - Wi-Fi Security Assessment
+# FUTURE_CS_03 - Wi-Fi Security Assessment
 
-As part of the **Future Interns Cybersecurity Track**, this task involved conducting a basic security assessment of my personal Wi-Fi network using ethical hacking tools and techniques.
-
----
-
-## 🎯 Task Objective
-
-To evaluate the security of a home wireless network by:
-
-- Scanning for connected devices
-- Detecting open and vulnerable ports
-- Checking for weak encryption or passwords
-- Identifying unauthorized devices
-- Providing recommendations for improved security
+This repository contains the Wi-Fi security assessment report for a personal home network, completed as part of the Future Interns initiative.
 
 ---
 
-## 🧰 Tools Used
-
-- **Nmap** – to discover hosts and open ports on the network
-- **Wireshark** – to capture and analyze network traffic
+✅ **Task Objective**  
+Conduct a wireless network security audit by identifying open ports, analyzing network traffic, and detecting possible vulnerabilities or unauthorized devices.
 
 ---
 
-## 🔍 Procedure
+🛠️ **Tools Used**  
+- Nmap  
+- Wireshark  
+- Manual Packet Analysis
 
-1. **Connected to Home Wi-Fi** using a Linux-based system.
-2. Identified the device IP using:
-   ```bash
-   hostname -I
+---
+
+🔍 **Key Findings**  
+- Router identified at `192.168.29.1` with standard HTTP/HTTPS ports open  
+- No high-risk services like Telnet or FTP found  
+- No unauthorized devices were detected  
+- Wireshark analysis showed only regular encrypted traffic and no suspicious packets
+
+---
+
+🛡️ **Recommendations**  
+- Use WPA2 or WPA3 encryption with a strong password  
+- Disable WPS to reduce brute-force vulnerability  
+- Regularly monitor connected devices on the router admin panel  
+- Keep router firmware up to date  
+- Enable a firewall and block unused ports
+
+---
+
+📄 **Deliverable**  
+This repository includes a detailed report outlining the procedure, tools used, findings, and actionable recommendations to improve Wi-Fi security. The report is available in both PDF and Word formats.
+
+---
+
+## About  
+No description, website, or topics provided.
+
+---
+
+## Resources  
+📁 `README.md`  
+📝 `WiFi_Assessment_Report.pdf`  
+📝 `WiFi_Assessment_Report.docx`
